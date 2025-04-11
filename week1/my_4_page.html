@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>chomphunut</title>
+    <style>
+      h1 {
+        color: blue;
+        text-align: center;
+      }
+      .font-pink {
+        color: pink;
+      }
+      .font-18 {
+        font-size: 18px;
+      }
+      p {
+        color: #333;
+        background-color: #f0f0f0;
+        opacity: 0.5;
+        padding: 15px;
+      }
+
+      .font-green {
+        color: green;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="font-pink font-18" id="title">ยินดีต้อนรับ</h1> 
+    <p class="font-green">เราชื่อแนนนะ</p>
+
+    <button onclick="changeTitle() ">Click Me </button>
+    <script>
+      function changeTitle(){//การประกาศฟังก์ชัน
+        const title =document.getElementById("title");//บรรทัดนี้ title จะไปดูที่บรรทัด h1
+        title.innerHTML= "เจอกันใหม่"; //เป็นการให้เปลี่ยนคำจาก h1 เป็น Goodbye Chomphunut
+        title.style.color = "red";
+      }
+    </script>
+  </body>
+</html>
