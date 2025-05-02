@@ -59,26 +59,34 @@
 }
 .section3-box-a{
     margin: auto;
-    background-color: #ee6eea;
+    width: 100%;
+    background-color: #f4a7f1;
 }
 
-.section2-box-a-study{
+.section3-box-a-study{
     font-size: 40px;
     color: blueviolet;
     text-align: center;
 }
+.section3-box-a-study1{
+    text-align: center;
+    font-size: 30px;
+    color:  rgb(255, 255, 255) ;
+}
 
-.section2-box-b{
+.section3-box-b{
+    width: 100%;
     margin: auto;
    background-color:  rgb(245, 223, 209);
 
 }
-.section2-box-b-work{
+.section3-box-b-work{
     font-size: 40px;
     color: blueviolet;
     text-align: center;
 }
-.section2-box-b-work1{
+.section3-box-b-work1{
+    text-align: center;
     font-size: 30px;
     color: #ee6eea;
 }
