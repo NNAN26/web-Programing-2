@@ -6,6 +6,7 @@
     text-align: center;
     color: rgb(218, 59, 246);
     font-size: 60px;
+    
 }
 
 .barriecito-regular {
@@ -51,6 +52,7 @@
     color: blueviolet;
     text-align: center;
     font-size: 40px;
+    
 
 }
 .section3-box{
@@ -89,4 +91,16 @@
     text-align: center;
     font-size: 30px;
     color: #ee6eea;
+}
+
+.menu-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 149, 239);
+}
+.menu-item{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
 }
